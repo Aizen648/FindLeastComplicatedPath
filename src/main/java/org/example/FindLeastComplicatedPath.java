@@ -87,7 +87,7 @@ public class FindLeastComplicatedPath {
     }
     private boolean reachNeighbors(Coordinates currentCell) {
         if (DEBUG)
-            System.out.println("Odwiedzono " + currentCell + " w " + getMovesDistance(currentCell) + " ruchach.");
+            System.out.println("Odwiedzono " + currentCell + " w " + getMovesDistance(currentCell) + " ruchach");
         int nextMove = getMovesDistance(currentCell) + 1;
         for (Coordinates direction : directions) {
             Coordinates nextCell = currentCell;
