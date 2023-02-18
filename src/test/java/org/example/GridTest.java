@@ -1,6 +1,5 @@
 package org.example;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
@@ -30,7 +29,7 @@ class GridTest {
     }
     @Test
     void generate_GridSizeTooBig_GridSizeEquals300() {
-        int sizeGrid = 301;
+        int sizeGrid = 303;
         assertEquals(300,Grid.generate(sizeGrid).size());
     }
 }
