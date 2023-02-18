@@ -12,7 +12,7 @@ public class Grid {
         if(sizeGrid>300){
             sizeGrid=300;
             System.out.println("The maximum grid size is 300.");
-            System.out.println("a Grid of size 300 was created");
+            System.out.println("a Grid of size 300 was created.");
         }
         List<String> result= new ArrayList<>();
         Random generator= new Random();
