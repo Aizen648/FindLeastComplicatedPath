@@ -8,7 +8,7 @@ public class Main {
         Random generator = new Random();
         //TODO: You can resize the grid. Grid size should be > 1. Otherwise it will throw an exception
         int sizeGrid = 15;
-        //TODO: You can see the process of finding a solution
+        //TODO: You can see the process of finding a solution.
         FindLeastComplicatedPath.DEBUG = true;
 
         List<String> grid = null;
